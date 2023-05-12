@@ -12,7 +12,7 @@ class Model {
   }
 
   _reload(todos) {
-    this.todoListChange(todos);
+    this.todoListChange(  todos);
     localStorage.setItem("todoList", JSON.stringify(todos));
   }
 
